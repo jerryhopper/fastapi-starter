@@ -1,14 +1,25 @@
 
-# Python version 3.12.6
+# FastAPI starter.
+
+A fastAPI container running Python version 3.12.6
+
 
 ## Build the container
 
 docker build build -t fastapi .
 
+or
+
+docker buildx build -t fastapi .
+
 
 ## Run the container
 
 docker-compose up -d
+
+or
+
+docker compose up -d
 
 
 ### Extras
